@@ -2302,29 +2302,26 @@ input, select, textarea {
 							width: 4.7em;
 						}
 					}
+				.head {
+					height: 8em;
+					margin: 1rem;
+				}
 
 				.phrase {
-					
-					/* font-size: 2em; */
-					padding-top: 8rem;
-
-					/* align-items: center; */
+					height: 10rem !important;
+					margin-bottom: 5rem;
 				}
 		
 					.phrase span {
 						color: #fff;
-						/* color: #ff8903; */
-						font-size: 4em;
+						font-size: 3em;
 						font-family: Carattere;
 						position: absolute;
 						height: 13vh;
 						width: 10em;
-						/* padding-left: 6vw; */
 						bottom: 36.5vh;
-						line-height: 13.5vh;
-						/* width: 100%; */
+						line-height: normal !important;
 						overflow: hidden;
-						/* text-transform: uppercase; */
 						animation: animate2 12s linear infinite;
 						opacity: 0;
 					}
