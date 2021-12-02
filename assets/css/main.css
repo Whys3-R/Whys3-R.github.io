@@ -2263,6 +2263,7 @@ input, select, textarea {
 			#main > section.cover {
 				/* padding: 10em 0; */
 				min-height: 100vh;
+				height: auto !important;
 				display: flex;
 				align-items: center;
 				background-size: cover;
@@ -2363,6 +2364,7 @@ input, select, textarea {
 				background-color: #f5fafa;
 				color: #111;
 				min-height: 100vh;
+				height: auto !important;
 				display: flex;
 				align-items: center;
 			}
