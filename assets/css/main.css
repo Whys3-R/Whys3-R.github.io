@@ -2275,7 +2275,7 @@ input, select, textarea {
 
 			}
 				.alt {
-					font-size: 5em;
+					font-size: calc(75px + 3vw);
 					margin-top: 10rem;
 					margin-bottom: 2rem;
 					color: #111;
@@ -2310,19 +2310,19 @@ input, select, textarea {
 
 				.phrase {
 					height: 10rem !important;
-					margin-bottom: 5rem;
+					margin-bottom: 1rem;
 				}
 		
 					.phrase span {
 						color: #fff;
-						font-size: 3em;
+						font-size: 4vw;
 						font-family: Carattere;
 						position: absolute;
 						height: 13vh;
-						width: 10em;
+						padding: 5vh;
 						bottom: 36.5vh;
 						line-height: normal !important;
-						overflow: hidden;
+						overflow: visible;
 						animation: animate2 12s linear infinite;
 						opacity: 0;
 					}
