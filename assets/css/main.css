@@ -2316,6 +2316,7 @@ input, select, textarea {
 					.phrase span {
 						color: #fff;
 						font-size: calc(40px + 2vw) !important;
+						text-size-adjust: auto;
 						font-family: Carattere;
 						position:absolute;
 						height: 10em;
