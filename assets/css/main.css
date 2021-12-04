@@ -2275,7 +2275,7 @@ input, select, textarea {
 
 			}
 				.alt {
-					font-size: calc(75px + 3vw);
+					font-size: calc(50px + 3vw);
 					margin-top: 10rem;
 					margin-bottom: 2rem;
 					color: #111;
