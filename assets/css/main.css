@@ -2315,7 +2315,7 @@ input, select, textarea {
 		
 					.phrase span {
 						color: #fff;
-						font-size: calc(40px + 2vw);
+						font-size: calc(40px + 2vw) !important;
 						font-family: Carattere;
 						position:absolute;
 						height: 10em;
@@ -2351,7 +2351,8 @@ input, select, textarea {
 					}
 
 					#contact-btn {
-						margin-top: 1rem;
+						margin-top: 1em;
+						padding-bottom: 1em;
 						background-color: #262626;
 					}
 					#contact-btn:hover {
