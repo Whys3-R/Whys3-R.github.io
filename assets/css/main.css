@@ -2305,7 +2305,7 @@ input, select, textarea {
 					}
 				.head {
 					height: 8em;
-					margin: 1rem;
+					margin-top: 4vh;
 				}
 
 				.phrase {
