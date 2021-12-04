@@ -2315,12 +2315,12 @@ input, select, textarea {
 		
 					.phrase span {
 						color: #fff;
-						font-size: 4vw;
+						font-size: calc(40px + 2vw);
 						font-family: Carattere;
-						position: absolute;
-						height: 13vh;
-						padding: 5vh;
-						bottom: 36.5vh;
+						position:absolute;
+						height: 10em;
+						padding-top: 1.5em;
+						/* margin-top: 10; */
 						line-height: normal !important;
 						overflow: visible;
 						animation: animate2 12s linear infinite;
@@ -2605,6 +2605,10 @@ input, select, textarea {
 
 			html, body {
 				overflow-x: hidden;
+			}
+
+			body {
+				position: relative;
 			}
 
 			body, input, textarea, select {
