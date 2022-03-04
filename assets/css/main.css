@@ -2390,6 +2390,9 @@ input, select, textarea {
 				background-color: #ecf1f1;
 				height: fit-content;
 			}
+				.warning {
+					color: red;
+				}
 				.hidden {
 					opacity: 0;
 				}
